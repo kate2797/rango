@@ -2,6 +2,7 @@ from django.urls import path
 from rango import views
 
 app_name = 'rango'
+# Good practice (namespace)
 
 urlpatterns = [
     path('', views.index, name='index'),

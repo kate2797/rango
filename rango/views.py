@@ -38,7 +38,7 @@ def add_category(request):
         form = CategoryForm(request.POST)  # Fill the form with user data
         if form.is_valid():
             form.save(commit=True)
-            return redirect('/rango/')
+            return redirect(reverse('rango:index'))
         else:
             print(form.errors)
     # The code below handles the following cases: invalid form, new form, no form supplied
@@ -52,7 +52,7 @@ def add_page(request, category_name_slug):
         category = None
 
     if category is None:
-        return redirect('/rango/')  # Category does not exist
+        return redirect(reverse('rango:index'))  # Category does not exist
 
     form = PageForm()
 
