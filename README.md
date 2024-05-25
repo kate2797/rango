@@ -1,9 +1,3 @@
-# tango_with_django_project
-- Chapter 3 ✅
-- Chapter 4 ✅
-- Chapter 5 ✅
-- Chapter 6 ✅
-- Chapter 7 ✅
-- Chapter 8 ✅
-- Chapter 9 ✅
-- Chapter 10 ✅
+# Rango
+
+This Django app, named Rango, was meticulously crafted chapter by chapter following the guidance of the "Tango with Django" book. It served as a cornerstone for mastering back-end development within the Django framework. Rango was proudly presented as a component of my Internet Technology module during my university studies.
